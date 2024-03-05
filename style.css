@@ -1,0 +1,140 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    width: 65%;
+    height: fixed 20px;
+    margin: 40px 40px 40px;
+}
+
+main{
+    position: absolute;
+    left: 40px;
+    bottom: 15px;
+    width: 95%;
+    height: 92%;
+    margin-top: 50px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caja_texto {
+    padding-left: 30px;
+    height: 450px;
+    width: 830px;
+    position: relative;
+    bottom: 50px;
+    right: 180px; 
+    display: flex;
+    align-items:center;
+    border-radius: 32px;
+    background-color: aliceblue; 
+    /* box-shadow: 0px 24px 32px -8px #00000014; */
+}
+
+textarea {
+    width: 800px;
+    height: 400px;
+    font-family: 'Courier New', monospace;letter-spacing: 0em;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    border-style: none; 
+    background-color: aliceblue;
+    color: #0A3871;
+    resize: none;
+}   
+
+textarea:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+
+.caja {
+    width: 380px;
+    height: 670px;
+    bottom: 3%;
+    right: 30px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    right: 0%;
+}
+
+#txt_encriptado{
+    font-family: 'Courier New', monospace;letter-spacing: 0em;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0A3871;
+    top: 50px;
+    width: 350px;
+    height: 520px;
+    overflow-y: auto;
+    border-color: #0A3871;
+    position: absolute;
+    top: 20px;
+
+}
+
+#copiar{
+    color: #0A3871;
+    background: aliceblue;
+    border-color:   #0A3871;
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+.icon{
+    font-family: 'Courier New', monospace;letter-spacing: 0em;
+    position: absolute;
+    left: 125px;
+    bottom: 92px;
+}
+
+.icon p{
+    font-size: 12px;
+}
+
+.btn{
+    position: absolute;
+    bottom: 40px;
+    left: 90px;
+    padding: 7px;
+    width: 700px;
+}
+
+button{
+    font-family: 'Courier New', monospace;letter-spacing: 0em;
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    width: 300px;
+    cursor: pointer;
+}
+
+#encriptar{
+    background-color: #0A3871;
+    border-color: #D8DFE8;
+    color: #FFFFFF;
+}
+
+#desencriptar{
+    color: #0A3871;
+    background: #D8DFE8;
+    border-color:   #0A3871;
+}
+
